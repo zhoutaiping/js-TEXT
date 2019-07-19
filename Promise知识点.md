@@ -2,6 +2,7 @@
 new Promise( function(resolve, reject) {...} /* executor */  )  异步函数
 
 
+```javascript
 function timeoutPromise(delay) {
     return new Promise( function(resolve,reject){
       resolve( "Timeout!" ); //返回 then(e)
@@ -16,3 +17,4 @@ timeoutPromise().then(res =>{
 })
 
 
+```

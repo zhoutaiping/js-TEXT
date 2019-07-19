@@ -1,5 +1,6 @@
 ##  使用
 
+```javascript
 -- 例子
 async function fetch() {
   const data = await fetchData()
@@ -28,6 +29,7 @@ async function aaa(){
 //这样的写法是继发的 相当于A执行完毕后再执行B
 }
 
+
 --  并发-异步执行多个方法 -无先后顺序
 (async () => {
   const listPromise = getList();
@@ -42,3 +44,4 @@ async function loadData() {
   return "whew all done";
 }
 
+```

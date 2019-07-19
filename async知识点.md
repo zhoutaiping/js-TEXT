@@ -1,6 +1,7 @@
 ##  使用
 
 ```javascript
+
 -- 例子
 async function fetch() {
   const data = await fetchData()

@@ -2,7 +2,7 @@
 
 ```javascript
 
--- 例子
+--- 例子
 async function fetch() {
   const data = await fetchData()
   if (data.moreData) {
@@ -14,7 +14,7 @@ async function fetch() {
 }
 
 
--- 错误处理
+--- 错误处理
 
 async function fetch() {
   try {
@@ -23,7 +23,7 @@ async function fetch() {
     console.log(err)
   }
 };
---继发 --按顺序执行
+--- 继发 --按顺序执行
 async function aaa(){
   let a = await some1()
   let b = await some2()
@@ -31,7 +31,7 @@ async function aaa(){
 }
 
 
---  并发-异步执行多个方法 -无先后顺序
+---  并发-异步执行多个方法 -无先后顺序
 (async () => {
   const listPromise = getList();
   const anotherListPromise = getAnotherList();

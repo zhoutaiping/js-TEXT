@@ -10,12 +10,12 @@
 
 -# 新建一个分支，指向某个tag  git checkout -b [branch] [tag]
 
-- 拉去代码 git pull
+- 拉取代码 git pull
 - #合并指定分支到当前分支  git merge [branch]   (git checkout [commit] [file])
 
 -- 提交代码 1. git add . (#或者 git add [name])  2. git commit -m [message] （#添加记录） 3. git push （#推送到分支）
 
--- 拉去克隆项目  git clone [url]
+-- 拉取克隆项目  git clone [url]
 
 -- # 删除本地分支 git branch -d [branch-name]
 
